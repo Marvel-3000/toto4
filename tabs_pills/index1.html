@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rohit Patil</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="bootstrap-dynamic-tabs.css">
+  <script src="bootstrap-dynamic-tabs.js"></script>
+</head>
+<body style="background-color: #ECF2FF;">
+<div class="container">
+  <h3>Bootstrap Tutorial</h3>
+  <h4>Vishwakarma Institute of Technology.</h4>
+  <br>
+  <ul id="mytabs" class="nav nav-pills">
+    <li class="active"><a href="#home" data-toggle="pill">Home</a></li>
+    <span class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Skills
+      <span class="caret"></span></button>
+      <ul id="myprojects" class="dropdown-menu">
+        <li><a href="#">C++</a></li>
+        <li><a href="#">Python</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">Flutter</a></li>
+      </ul>
+    </span >
+    <li><a href="#menu1" data-toggle="pill">Resume</a></li>
+    <li><a href="#projects" data-toggle="pill">Projects</a></li>
+    <li><a href="#menu2" data-toggle="pill">FY</a></li>
+    <li><a href="#menu3" data-toggle="pill">SY</a></li>
+    <li><a href="#menu4" data-toggle="pill">TY</a></li>
+    <li><a href="#menu5" data-toggle="pill">BTech</a></li>
+  </ul>
+  <br>
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <img src="MyProfile.jpg" width="200" height="300" class="img-thumbnail">
+        <h1>Rohit Patil</h1>
+        <br>
+        <h3>I'm a computer engineer. I specialize in designing and developing software, hardware, and computer systems</h3>
+        <br>
+        <h4>TY CS C</h4>
+        <h4>Roll no: 16 </h4>
+        <br>
+        <p><a href="mailto:rohitpatilrp07@gmail.com">Send email</a></p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Resume</h3>
+      <a href="CV.pdf" download="RohitPatilCV">Download the Resume</a>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Courses Completed</h3>
+      <br>
+      <img src="FY.png" width="800" height="600" class="img-thumbnail">
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Courses Completed</h3>
+      <br>
+      <img src="SY.png" width="800" height="600" class="img-thumbnail">
+    </div>
+    <div id="menu4" class="tab-pane fade">
+      <h3>Courses Completed</h3>
+      <br>
+      <img src="TY.png" width="800" height="600" class="img-thumbnail"> </div>
+    <div id="menu5" class="tab-pane fade">
+      <h3>Courses Completed</h3>
+      <br>
+      <img src="BTech.png" width="800" height="600" class="img-thumbnail">
+    </div>
+    <div id="projects" class="tab-pane fade">
+      <br><br>
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+              <li class="active"><a data-toggle="pill" href="#FY1">FY Sem 1</a></li>
+              <li><a data-toggle="pill" href="#FY2">FY Sem 2</a></li>
+              <li><a data-toggle="pill" href="#SY1">SY Sem 1</a></li>
+              <li><a data-toggle="pill" href="#SY2">SY Sem 2</a></li>
+              <li><a data-toggle="pill" href="#TY1">TY Sem 1</a></li>
+              <li><a data-toggle="pill" href="#TY2">TY Sem 2</a></li>
+            </ul>
+        </div>
+        <div class="tab-content">
+          <div id="FY1" class="tab-pane fade in active"><h1>Smart Traffic Management System</h1><br><a href="https://github.com/rohitp07">Github</a></div>
+          <div id="FY2" class="tab-pane fade"><h1>Bluetooth Peripheral App</h1><br><a href="https://github.com/rohitp07">Github</a></div>
+          <div id="SY1" class="tab-pane fade"><h1>Program Complexity Calculator</h1><br><a href="https://github.com/rohitp07">Github</a></div>
+          <div id="SY2" class="tab-pane fade"><h1>Visulized Learning of Sorting Techniques</h1><br><a href="https://github.com/rohitp07">Github</a></div>
+          <div id="TY1" class="tab-pane fade"><h1>SOS Safety Assistant App
+          </h1><br><a href="https://github.com/rohitp07">Github</a></div>
+          <div id="TY2" class="tab-pane fade"><h1>
+            Flutter Ui Templates
+            </h1><br><a href="https://github.com/rohitp07">Github</a></div>
+        </div>
+    </div>
+  </div> 
+</div>
+</body>
+</html>

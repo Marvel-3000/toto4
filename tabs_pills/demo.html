@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shweta Patil</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="bootstrap-dynamic-tabs.css">
+  <script src="bootstrap-dynamic-tabs.js"></script>
+</head>
+<body>
+<div class="container">
+  <h3>Tabs and Pills</h3>
+  <h4>To see syllabus of academics</h4>
+  <br>
+  <ul id="mytabs" class="nav nav-pills">
+    <li class="active"><a href="#home" data-toggle="pill">Home</a></li>
+    <li><a href="#menu1" data-toggle="pill">FY SEM 1</a></li>
+    <li><a href="#menu2" data-toggle="pill">FY SEM 2</a></li>
+    <li><a href="#menu3" data-toggle="pill">SY SEM 1</a></li>
+    <li><a href="#menu4" data-toggle="pill">SY SEM 2</a></li>
+    <li><a href="#menu5" data-toggle="pill">TY SEM 1</a></li>
+    <li><a href="#menu6" data-toggle="pill">TY SEM 2</a></li>
+    <li><a href="#menu7" data-toggle="pill">FY SEM 1</a></li>
+    <li><a href="#menu8" data-toggle="pill">FY SEM 2</a></li>  
+    <li><a href="#menu9" data-toggle="pill">Academic Calender</a></li>
+    <li><a href="#menu10" data-toggle="pill">Fee structure</a></li>
+    <li><a href="#menu11" data-toggle="pill">International Relations</a></li>
+    <li><a href="#menu12" data-toggle="pill">NIRF Ranking</a></li>
+  </ul>
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>WELCOME TO VIT</h3>
+      <h4>explore the culture of vit</h4>
+      <p>VIT Pune is an engineering college located in Pune, Maharashtra, India. The college was established in 1983 and has since then
+         grown to become one of the most reputed engineering colleges in India. VIT Pune offers undergraduate and postgraduate programs 
+         in various disciplines such as Computer Science and Engineering, Electronics and Telecommunication Engineering, Mechanical 
+         Engineering, Civil Engineering, and Information Technology. The college is affiliated with Savitribai Phule Pune University 
+         and is approved by the All India Council for Technical Education (AICTE). VIT Pune has state-of-the-art facilities, highly 
+         qualified faculty members, and a vibrant campus life that offers a holistic learning experience to its students.</p>
+         <a>
+          <img src="https://www.vit.edu/media/k2/items/src/878af4972e07916863ae909a162bf74b.jpg" alt="VIT Pune">
+        </a>
+    </div>
+
+    <div id="menu1" class="tab-pane fade">
+      <h3>Syllabus of FY sem1:</h3>
+      <br>
+      <iframe src="file:sem1.pdf" width="100%" height="700"></iframe>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Syllabus of FY sem2:</h3>
+      <br>
+      <iframe src="file:sem2.pdf" width="100%" height="700"></iframe>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Syllabus of SY sem1:</h3>
+      <br>
+      <iframe src="file:sem3.pdf" width="100%" height="700"></iframe>
+    </div>
+    <div id="menu4" class="tab-pane fade">
+      <h3>Syllabus of SY sem2:</h3>
+      <br>
+      <iframe src="file:sem4.pdf" width="100%" height="700"></iframe>
+    </div>
+    <div id="menu5" class="tab-pane fade">
+      <h3>Syllabus of TY sem1:</h3>
+      <br>
+      <iframe src="file:sem5.pdf" width="100%" height="700"></iframe>
+    </div>
+    <div id="menu6" class="tab-pane fade">
+      <h3>Syllabus of TY sem2:</h3>
+      <br>
+      <iframe src="file:sem6.pdf" width="100%" height="700"></iframe>
+    </div>
+    <div id="menu7" class="tab-pane fade">
+
+    </div>
+    <div id="menu8" class="tab-pane fade">
+      
+    </div>
+    <div id="menu9" class="tab-pane fade">
+      <h3>Academic Calender of VIT:</h3>
+      <br>
+      <iframe src="https://www.vit.edu/images/News/academic_calendar_sem2_22-23.pdf" width="100%" height="700"></iframe>
+    </div>
+    <!-- <div id="menu10 class="tab-pane fade">
+      <h3>Academic Calender of VIT:</h3>
+      <br>
+      <iframe src="https://www.vit.edu/images/News/academic_calendar_sem2_22-23.pdf" width="100%" height="700"></iframe>
+    </div> -->
+    <div id="menu11" class="tab-pane fade">
+      <h3>International Relations of VIT:</h3>
+      <br>
+      <!-- <iframe src="https://www.vit.edu/images/News/academic_calendar_sem2_22-23.pdf" width="100%" height="700"></iframe> -->
+    </div>
+    <div id="menu12" class="tab-pane fade">
+      <h3>NIRF Rating of VIT:</h3>
+      <br>
+      <iframe src="https://www.vit.edu/images/News/NIRF2023.pdf" width="100%" height="700"></iframe>
+    </div>
+  </div>  
+  <script>
+  $("#mytabs").bootstrapDynamicTabs();
+  </script>
+</div>
+
+</body>
+</html>
